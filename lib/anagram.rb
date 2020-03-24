@@ -1,7 +1,7 @@
 class Anagram
-  attr_accessor 
+  attr_accessor :word 
   
   def initialize(word)
-    @word.select {|word| word == word} 
+    @word = word
   end
 end 
